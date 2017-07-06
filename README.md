@@ -5,7 +5,7 @@ www.2prime.cn
 
 ## Some useful tools going to update
 - Data augmentation
-- MSRAinit
+- MSRAinit:https://arxiv.org/pdf/1502.01852
 
 ## Regression Test
 
