@@ -8,3 +8,6 @@ www.2prime.cn
 > In this test, 2prime want's to discover the landscape of deep neural networks
 
 This test is also a simple example to learn pytorch.
+
+## ResNet Test
+> Hope to discover the dynamic of ResNet
