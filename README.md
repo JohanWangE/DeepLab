@@ -3,6 +3,10 @@
 
 www.2prime.cn
 
+## Some useful tools going to update
+- Data augmentation
+- MSRAinit
+
 ## Regression Test
 
 > In this test, 2prime want's to discover the landscape of deep neural networks
