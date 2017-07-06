@@ -5,7 +5,7 @@ www.2prime.cn
 
 ## Some useful tools going to update
 - Data augmentation
-- MSRAinit:https://arxiv.org/pdf/1502.01852
+- MSRAinit:He K, Zhang X, Ren S, et al. Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification, arxiv:https://arxiv.org/pdf/1502.01852
 
 ## Regression Test
 
