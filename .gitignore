@@ -1,3 +1,4 @@
 .ipynb_checkpoints
 *.mdlpkl
 __pycache__/
+data/
