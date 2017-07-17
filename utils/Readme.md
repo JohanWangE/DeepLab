@@ -5,5 +5,7 @@
 net parameter initialization for relu network
 
 He K, Zhang X, Ren S, et al. 
-Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification, 
+
+Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification,
+
 arxiv:1502.01852
