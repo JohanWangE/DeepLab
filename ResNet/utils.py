@@ -16,3 +16,6 @@ def check_control(filename):
         except:
             write_file_and_close("Error occured checking control!!!")
             return False
+
+def generate_filename():
+    return "Model-" + datetime.datetime.now().strftime("%Y%m%d%H%M%S%f") + ".mdlpkl"

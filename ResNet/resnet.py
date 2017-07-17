@@ -9,14 +9,14 @@ import torch.nn.functional as functional
 
 import torch.optim as optim
 
-from utils import write_file_and_close, check_control
+from utils import write_file_and_close, check_control, generate_filename
 
 import os
 import errno
 
 global_batch_size = 128
 global_resnet_n = 3
-global_conv_bias = True
+global_conv_bias = False
 global_data_print_freq = 20
 global_epoch_num = 200
 global_cuda_available = True
@@ -25,11 +25,11 @@ global_control_filename = "control.txt"
 global_epoch_test_freq = 1
 
 if global_cuda_available:
-    os.environ["CUDA_VISIBLE_DEVICES"] = "5"
+    os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
 transform_train = transforms.Compose([
-    transforms.RandomCrop(32, padding=4),
-    transforms.RandomHorizontalFlip(),
+    # transforms.RandomCrop(32, padding=4),
+    # transforms.RandomHorizontalFlip(),
     transforms.ToTensor(),
     transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5))
 ])
@@ -94,15 +94,16 @@ class BasicBlock(nn.Module):
         self.bn1 = nn.BatchNorm2d(in_planes)
         self.conv1 = nn.Conv2d(
             in_planes, out_planes, kernel_size=kernel_size,
-            stride=stride, padding=1, bias=global_batch_size
+            stride=stride, padding=1, bias=global_conv_bias
         )
         self.bn2 = nn.BatchNorm2d(out_planes)
         self.conv2 = nn.Conv2d(
             out_planes, out_planes, kernel_size=kernel_size,
-            padding=1, bias=global_batch_size
+            padding=1, bias=global_conv_bias
         )
         self.shortcut = nn.Conv2d(
-            in_planes, out_planes, kernel_size=1, stride=stride
+            in_planes, out_planes, kernel_size=1,
+            stride=stride, bias=global_conv_bias
         )
 
     def forward(self, x):
@@ -259,3 +260,6 @@ for epoch in range(global_epoch_num):
             .format(info[0], info[1], info[0] / info[1], info[2] / info[1])
         )
         write_file_and_close(global_output_filename, "Finished testing")
+
+model_filename = generate_filename()
+torch.save(net, model_filename)
