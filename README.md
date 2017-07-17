@@ -5,10 +5,18 @@ www.2prime.cn
 
 Hoping to including examples for pytorch,tensorflow,tensorlayer,tflearn
 
-## Some useful tools going to update
+## Some useful tools 
+
+- **MSRAinit:** 
+*He K, Zhang X, Ren S, et al.*
+Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification
+
+arxiv:<a href="https://arxiv.org/pdf/1502.01852">1502.01852</a>
+
+### Coming Soon
 - Data augmentation
 - Data API for tensorflow
-- **MSRAinit:** *He K, Zhang X, Ren S, et al. Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification*, arxiv:https://arxiv.org/pdf/1502.01852
+
 
 ## Regression Test
 
