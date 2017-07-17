@@ -9,9 +9,7 @@ Hoping to including examples for pytorch,tensorflow,tensorlayer,tflearn
 
 - **MSRAinit:** 
 *He K, Zhang X, Ren S, et al.*
-Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification
-
-arxiv:<a href="https://arxiv.org/pdf/1502.01852">1502.01852</a>
+Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification:arxiv:<a href="https://arxiv.org/pdf/1502.01852">1502.01852</a>
 
 ### Coming Soon
 - Data augmentation
