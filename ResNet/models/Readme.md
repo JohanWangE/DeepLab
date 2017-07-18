@@ -9,3 +9,5 @@
 Nesterov Momentum ResNet
 
 [1]E Haber, L Ruthotto Stable Architectures for Deep Neural Networks
+
+[2]Weinan E. A Proposal on Machine Learning via Dynamical Systems
