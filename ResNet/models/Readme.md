@@ -5,6 +5,9 @@
 
 [2] Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun Identity Mappings in Deep Residual Networks. arXiv:1603.05027
 
+### ResNetXt
+[3]Xie S, Girshick R, Dollár P, et al. Aggregated Residual Transformations for Deep Neural Networks[J]. 2017.
+
 ## NM_ResNet
 Nesterov Momentum ResNet(Our Model)
 
