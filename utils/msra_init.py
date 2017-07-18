@@ -4,6 +4,7 @@ net parameter initialization.
 He K, Zhang X, Ren S, et al.
 Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification,
 arxiv:1502.01852
+Reference:http://damon.studio/2017/06/11/WeightsInitialization/
 '''
 
 import os
@@ -39,6 +40,6 @@ def msra_init(net):
             init.constant(m.weight, 1)
             init.constant(m.bias, 0)
         elif isinstance(m, nn.Linear):
-            init.kaiming_normal(m.weight)
+            init.normal(m.weight, std=1e-3)
             if m.bias:
                 init.constant(m.bias, 0)
