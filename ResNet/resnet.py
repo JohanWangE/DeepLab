@@ -55,6 +55,12 @@ testloader = torch.utils.data.DataLoader(
     testset, batch_size=global_batch_size, shuffle=False, num_workers=2
 )
 
+
+########################################
+#ResNet Model
+########################################
+
+
 class StartBlock(nn.Module):
     """First several blocks for resnet
 
@@ -162,6 +168,11 @@ net = ResNet(global_resnet_n)
 
 if global_cuda_available:
     net.cuda()
+    
+    
+########################################
+#Training Code For Cifar-10
+########################################
 
 criterion = nn.CrossEntropyLoss()
 optimizer = optim.SGD(
