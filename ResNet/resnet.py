@@ -101,10 +101,12 @@ class BasicBlock(nn.Module):
             out_planes, out_planes, kernel_size=kernel_size,
             padding=1, bias=global_conv_bias
         )
-        self.shortcut = nn.Conv2d(
-            in_planes, out_planes, kernel_size=1,
-            stride=stride, bias=global_conv_bias
-        )
+        if stride != 1:
+            self.shortcut = nn.Sequential(
+                nn.Conv2d(in_planes, out_planes, kernel_size=1, stride=stride, bias=False)
+            )
+        else:
+            self.shortcut = nn.Sequential()
 
     def forward(self, x):
         out = self.bn1(x)
