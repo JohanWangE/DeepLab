@@ -9,7 +9,11 @@ Hoping to including examples for pytorch,tensorflow,tensorlayer,tflearn
 
 - **MSRAinit:** 
 *He K, Zhang X, Ren S, et al.*
-Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification:arxiv:<a href="https://arxiv.org/pdf/1502.01852">1502.01852</a>(Thanks to:http://damon.studio/2017/06/11/WeightsInitialization/)
+Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification:arxiv:<a href="https://arxiv.org/pdf/1502.01852">1502.01852</a>
+
+- http://damon.studio/2017/06/11/WeightsInitialization/
+- https://discuss.pytorch.org/t/weight-initilzation/157/2
+
 
 ### Coming Soon
 - Data augmentation
