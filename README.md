@@ -37,3 +37,6 @@ Reference
 PreActBlock and PreActBottleneck module is from the later paper:
 [2] Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun
     Identity Mappings in Deep Residual Networks. arXiv:1603.05027
+    
+<hr/>
+The mighty `MIT` license. Please check `LICENSE` for more details.
