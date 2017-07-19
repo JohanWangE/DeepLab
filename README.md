@@ -5,6 +5,10 @@ www.2prime.cn
 
 Hoping to including examples for pytorch,tensorflow,tensorlayer,tflearn
 
+<hr/>
+
+
+
 ## Some useful tools 
 
 - **MSRAinit:** 
@@ -39,4 +43,12 @@ PreActBlock and PreActBottleneck module is from the later paper:
     Identity Mappings in Deep Residual Networks. arXiv:1603.05027
     
 <hr/>
+
 The mighty `MIT` license. Please check `LICENSE` for more details.
+
+<hr/>
+### Reference:
+
+[1]https://github.com/aaron-xichen/pytorch-playground
+
+[2]https://github.com/kuangliu/pytorch-cifar
