@@ -7,4 +7,4 @@
 | File Name |Data augmentation | Layer | Accuracy|
 | ------ | ------ | ------ |-------------|
 |  | without | 20 ||
-|  | without | 32 ||
+|  | without | 32 |86.7%|
