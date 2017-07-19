@@ -16,7 +16,7 @@ Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Cla
 
 
 ### Coming Soon
-- Data augmentation
+- Data augmentation for tensorflow(For pytorch you only need to change the transform)
 - Data API for tensorflow
 
 
