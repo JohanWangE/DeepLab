@@ -33,13 +33,13 @@ This test is also a simple example to learn pytorch.
 ## Network Models
 > Hope to discover the dynamic of Neural Networks
 
-Model included:
+#### Model included:
 - ResNet,ResNetXt
 - GoogleNet
 - HighwayNet
 - DenseNet
 
-Reference
+#### Reference
 
 [1] Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun
     Deep Residual Learning for Image Recognition. arXiv:1512.03385
