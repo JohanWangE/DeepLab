@@ -116,6 +116,8 @@ class Residual_block(nn.Module):
             self.basic_block.append(BasicBlock(in_planes,in_planes,kernel_size,1))
         if self.subsample:
             self.subsample = BasicBlock(in_planes,out_plane,kernel_size,2)
+        # add basic_block into Net's parameter!!!
+        self.para = nn.Sequential(*self.basic_block)
 
     def forward(self,x):
         out = x
