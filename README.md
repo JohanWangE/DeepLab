@@ -30,8 +30,13 @@ Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Cla
 
 This test is also a simple example to learn pytorch.
 
-## ResNet Test
-> Hope to discover the dynamic of ResNet
+## Network Models
+> Hope to discover the dynamic of Neural Networks
+
+Model included:
+- ResNet,ResNetXt
+- GoogleNet
+- HighwayNet
 
 Reference
 
@@ -47,6 +52,7 @@ PreActBlock and PreActBottleneck module is from the later paper:
 The mighty `MIT` license. Please check `LICENSE` for more details.
 
 <hr/>
+
 ### Reference:
 
 [1]https://github.com/aaron-xichen/pytorch-playground
