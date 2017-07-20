@@ -37,15 +37,21 @@ Model included:
 - ResNet,ResNetXt
 - GoogleNet
 - HighwayNet
+- DenseNet
 
 Reference
 
 [1] Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun
     Deep Residual Learning for Image Recognition. arXiv:1512.03385
 
-PreActBlock and PreActBottleneck module is from the later paper:
 [2] Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun
     Identity Mappings in Deep Residual Networks. arXiv:1603.05027
+    
+[3] Srivastava R K, Greff K, Schmidhuber J. 
+    Training Very Deep Networks.  arXiv:1507.06228v2
+
+[4] Huang G, Liu Z, Weinberger K Q. 
+    Densely Connected Convolutional Networks.  arXiv:1608.06993
     
 <hr/>
 
