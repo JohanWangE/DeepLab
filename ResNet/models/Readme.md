@@ -11,7 +11,7 @@
 ## NM_ResNet
 Nesterov Momentum ResNet(Our Model)
 
-> **Attention:**Code is not available.!
+> Attention:Code is not available.!
 
 [1]E Haber, L Ruthotto Stable Architectures for Deep Neural Networks
 
