@@ -7,5 +7,5 @@
 | File Name |Data augmentation | Layer | Accuracy|
 | ------ | ------ | ------ |-------------|
 |  | without | 20 ||
-|  | without | 32 |86.7%|
-|  | with | 32 |88.7%|
+| Model-20170720003405560747.mdlpkl | without | 32 |86.7%|
+| Model-20170720040145442858.mdlpkl | with | 32 |88.7%|
