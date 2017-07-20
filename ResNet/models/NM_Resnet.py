@@ -1,3 +1,7 @@
+'''
+Nesterov Momentum Resnet
+cu_tt+u_t = f(u)
+'''
 import torch
 import torchvision
 import torch.nn as nn
@@ -110,6 +114,7 @@ class Weight_Id(nn.Module):
     def __init__(self):
         super(Weight_Id,self).__init__()
         self.weight = nn.Parameter(torch.Tensor(1))
+        self.weight.data.uniform_(-0.1, 0.0)
 
     def forward(self):
         return self.weight
@@ -136,7 +141,7 @@ class NM_Residual_block(nn.Module):
         out_new = x + self.basic_block[0](x)
         for i in range(self.blocks-1):
             tmp = out_new
-            out_new = (self.momentum[i]().expand_as(out_new)*out_new)+((1-self.momentum[i]()).expand_as(out))*out + self.basic_block[i](out_new)
+            out_new = (self.momentum[i]().expand_as(out_new)*out)+((1-self.momentum[i]()).expand_as(out))*out_new + self.basic_block[i](out_new)
             out = tmp
         if self.subsample:
             out = self.subsample(x)
