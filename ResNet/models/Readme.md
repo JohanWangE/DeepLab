@@ -11,6 +11,8 @@
 ## NM_ResNet
 Nesterov Momentum ResNet(Our Model)
 
+> You may start the training with step size = 0.01
+
 > Attention:Code is not available.!
 
 [1]E Haber, L Ruthotto Stable Architectures for Deep Neural Networks
