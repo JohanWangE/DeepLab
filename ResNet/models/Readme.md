@@ -20,6 +20,14 @@ Nesterov Momentum ResNet(Our Model)
 [2]Weinan E. A Proposal on Machine Learning via Dynamical Systems
 
 
+## LF_ResNet
+(Our Model)
+
+> You may start the training with step size = 0.01
+
+> Attention:Code is not available.!
+
+
 ## DenseNet
 
 [1]Huang G, Liu Z, Weinberger K Q. Densely Connected Convolutional Networks[J]. 2016.
