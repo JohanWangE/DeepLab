@@ -18,6 +18,10 @@ Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Cla
 - http://damon.studio/2017/06/11/WeightsInitialization/
 - https://discuss.pytorch.org/t/weight-initilzation/157/2
 
+- **padding**:
+
+Different padding methods while data augmentation
+
 
 ### Coming Soon
 - Data augmentation for tensorflow(For pytorch you only need to change the transform)
