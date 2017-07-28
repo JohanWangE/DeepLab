@@ -9,22 +9,6 @@ import matplotlib.pyplot as plt
 
 
 
-def _border(border):
-    if isinstance(border, tuple):
-        if len(border) == 2:
-            left, top = right, bottom = border
-        elif len(border) == 4:
-            left, top, right, bottom = border
-    else:
-        left = top = right = bottom = border
-    return left, top, right, bottom
-
-def _color(color, mode):
-    if isStringType(color):
-        from PIL import ImageColor
-        color = ImageColor.getcolor(color, mode)
-    return color
-
 def expand(image, border=0):
     """
     Add border to the image(Symmetric padding)
